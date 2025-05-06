@@ -23,6 +23,7 @@ header h1 {
   gap: 15px;
   margin-top: 20px;
 }
+
 #view-menu-btn {
 display: flex;
 margin: 25px auto;
@@ -93,6 +94,7 @@ button:hover {
 
   #category-selection {
     flex-direction: row; /* Butonları alt alta yerleştir */
+    font-size: 25px;
   }
 
   .menu-item {
@@ -102,7 +104,7 @@ button:hover {
 
 @media (max-width: 480px) {
   button {
-    font-size: 12px; /* Mobil ekranlarda daha küçük yazı boyutu */
+    font-size: 16px; /* Mobil ekranlarda daha küçük yazı boyutu */
     padding: 6px 12px; /* Butonun içini daha da küçültme */
   }
 
