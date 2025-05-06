@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Adana Kebap",
+    "description": "Acılı ve baharatlı kıyma kebabı",
+    "price": "120₺",
+    "image": "assets/images/kebab.jpg"
+  },
+  {
+    "name": "Urfa Kebap",
+    "description": "Acısız klasik kebap",
+    "price": "115₺",
+    "image": "assets/images/kebab.jpg"
+  },
+  {
+    "name": "Tavuk Şiş",
+    "description": "Izgara tavuk şiş kebabı",
+    "price": "100₺",
+    "image": "assets/images/kebab.jpg"
+  },
+  {
+    "name": "Lahmacun",
+    "description": "İnce hamur üzerinde kıymalı harç",
+    "price": "45₺",
+    "image": "assets/images/kebab.jpg"
+  }
+]
