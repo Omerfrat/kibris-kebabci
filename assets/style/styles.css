@@ -92,6 +92,45 @@ button:hover {
   font-size: 16px;
 }
 
+/* Footer Genel Stiller */
+footer {
+  background-color: #333; /* Koyu arka plan rengi */
+  color: white; /* Yazı rengi */
+  padding: 20px 0; /* Üst ve alt boşluklar */
+  text-align: center; /* Metin ortalanacak */
+  font-size: 14px; /* Yazı boyutu */
+  position: relative; /* Alt tarafa sabitlemek için */
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #e53935; /* Bağlantı rengi */
+  text-decoration: none; /* Altı çizgiyi kaldır */
+  margin: 0 10px; /* Bağlantılar arasına boşluk ekle */
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #d32f2f; /* Hover efektinde renk değişimi */
+}
+
+/* Sosyal medya simgeleri için stiller */
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0; /* Sosyal medya simgeleri için boşluk */
+}
+
+.footer-socials a {
+  font-size: 20px; /* İkon büyüklüğü */
+}
+
+.footer-socials a:hover {
+  color: #d32f2f; /* Hover efekti */
+}
+
 /* Medya sorguları ile ekran küçüldükçe butonları küçültme */
 @media (max-width: 768px) {
   button {
@@ -106,6 +145,15 @@ button:hover {
 
   .menu-item {
     width: 180px; /* Menü öğelerinin boyutunu küçültme */
+  }
+
+  footer {
+    font-size: 12px; /* Mobil ekranlar için yazı boyutunu küçültme */
+    padding: 15px 0; /* Alt padding'i küçültme */
+  }
+
+  .footer-socials {
+    gap: 10px; /* Sosyal medya simgeleri arasındaki boşluğu azalt */
   }
 }
 
