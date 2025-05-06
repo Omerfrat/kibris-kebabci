@@ -1,26 +1,80 @@
-[
-  {
-    "name": "Adana Kebap",
-    "description": "Acılı ve baharatlı kıyma kebabı",
-    "price": "120₺",
-    "image": "assets/images/kebab.jpg"
-  },
-  {
-    "name": "Urfa Kebap",
-    "description": "Acısız klasik kebap",
-    "price": "115₺",
-    "image": "assets/images/kebab.jpg"
-  },
-  {
-    "name": "Tavuk Şiş",
-    "description": "Izgara tavuk şiş kebabı",
-    "price": "100₺",
-    "image": "assets/images/kebab.jpg"
-  },
-  {
-    "name": "Lahmacun",
-    "description": "İnce hamur üzerinde kıymalı harç",
-    "price": "45₺",
-    "image": "assets/images/kebab.jpg"
-  }
-]
+{
+  "kebaplar": [
+    {
+      "name": "Adana Kebap",
+      "description": "Acılı ve baharatlı kıyma kebabı",
+      "price": "120₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Urfa Kebap",
+      "description": "Acısız klasik kebap",
+      "price": "115₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Tavuk Şiş",
+      "description": "Izgara tavuk şiş kebabı",
+      "price": "100₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Lahmacun",
+      "description": "İnce hamur üzerinde kıymalı harç",
+      "price": "45₺",
+      "image": "assets/images/kebab.jpg"
+    }
+  ],
+  "icecekler": [
+    {
+      "name": "Ayran",
+      "description": "Yoğurtlu ve tuzlu ferahlatıcı içecek",
+      "price": "15₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Kola",
+      "description": "Soğuk ve tatlı gazlı içecek",
+      "price": "10₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Meyve Suyu",
+      "description": "Taze sıkılmış meyve suyu",
+      "price": "12₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Su",
+      "description": "Soğuk su",
+      "price": "5₺",
+      "image": "assets/images/su.jpg"
+    }
+  ],
+  "durumler": [
+    {
+      "name": "Adana Dürüm",
+      "description": "Adana kebap, lavaş içinde sunulur.",
+      "price": "150₺",
+      "image": "assets/images/durum.jpg"
+    },
+    {
+      "name": "Urfa Dürüm",
+      "description": "Urfa kebap, lavaş içinde sunulur.",
+      "price": "145₺",
+      "image": "assets/images/durum.jpg"
+    },
+    {
+      "name": "Tavuk Dürüm",
+      "description": "Izgara tavuk şiş, lavaş içinde sunulur.",
+      "price": "130₺",
+      "image": "assets/images/durum.jpg"
+    },
+    {
+      "name": "Lahmacun Dürüm",
+      "description": "Lahmacun içi lavaş içinde sarılır.",
+      "price": "60₺",
+      "image": "assets/images/durum.jpg"
+    }
+  ]
+}
