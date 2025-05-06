@@ -92,7 +92,7 @@ button:hover {
   }
 
   #category-selection {
-    flex-direction: column; /* Butonları alt alta yerleştir */
+    flex-direction: row; /* Butonları alt alta yerleştir */
   }
 
   .menu-item {
