@@ -25,9 +25,9 @@ document.addEventListener('DOMContentLoaded', () => {
           div.className = 'menu-item';
           div.innerHTML = `
             <img src="${item.image}" alt="${item.name}">
-            <h2>${item.name}</h2>
+            <span><h2>${item.name}</h2>
             <p>${item.description}</p>
-            <div class="price">${item.price}</div>
+            <div class="price">Fiyat : ${item.price}</span></div>
           `;
           menuContainer.appendChild(div);
         });
