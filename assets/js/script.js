@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const showAll = () => {
         menuContainer.innerHTML = '';
         showItems(kebaplar);
-        showItems(icecekler);
         showItems(durumler);
         showItems(doner);
         showItems(pide);
         showItems(corba);
+        showItems(icecekler);
       };
 
       // Sayfa açıldığında tümü göster
