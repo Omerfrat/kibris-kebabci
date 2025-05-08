@@ -1,68 +1,272 @@
 {
   "kebaplar": [
     {
-      "name": "Adana Kebap",
-      "description": "Acılı ve baharatlı kıyma kebabı",
-      "price": "120 ₺",
-      "image": "assets/images/su.jpg"
+      "name": "Kuzu Şiş Servis",
+      "description": "Izgara kuzu et şiş, pilav ve salata ile servis edilir.",
+      "price": "550 ₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Adana Servis",
+      "description": "Acılı Adana kebabı, pilav, közlenmiş biber ve domates ile servis edilir.",
+      "price": "500 ₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Sarma Beyti",
+      "description": "Adana kebabının lavaşa sarılıp yoğurt ve tereyağ ile sunulan hali.",
+      "price": "500 ₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Ciğer Servis",
+      "description": "Izgara kuzu ciğeri, sumaklı soğan ve lavaş ile birlikte.",
+      "price": "550 ₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Kanat Servis",
+      "description": "Izgara tavuk kanat, pilav ve köz sebzelerle servis edilir.",
+      "price": "500 ₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Karışık Kebab Servis",
+      "description": "Adana, şiş, tavuk ve ciğerin bir arada bulunduğu karışık kebap tabağı.",
+      "price": "800 ₺",
+      "image": "assets/images/kebab.jpg"
+    },
+    {
+      "name": "Tavuk Şiş Servis",
+      "description": "Marine edilmiş tavuk şiş, pilav ve salata eşliğinde.",
+      "price": "500 ₺",
+      "image": "assets/images/kebab.jpg"
     }
   ],
   "icecekler": [
     {
+      "name": "Kola Çeşitleri",
+      "description": "Coca-Cola, Fanta, Sprite gibi gazlı içecek çeşitleri (33cl)",
+      "price": "60 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Soda",
+      "description": "Doğal maden suyu",
+      "price": "40 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Şalgam",
+      "description": "Acılı veya acısız Adana şalgamı",
+      "price": "70 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
       "name": "Ayran",
-      "description": "Yoğurtlu ve tuzlu ferahlatıcı içecek",
-      "price": "15 ₺",
+      "description": "Hazır kutu ayran (20cl)",
+      "price": "20 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Bardak Ayran",
+      "description": "Ev yapımı bardak ayran",
+      "price": "50 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "1,5Lt Ayran",
+      "description": "Toplu siparişler için 1,5 litrelik ayran",
+      "price": " ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "2,5Lt Kola",
+      "description": "Aile boyu Coca-Cola (2.5 litre)",
+      "price": "120 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "1,5Lt Kola",
+      "description": "Büyük boy Coca-Cola (1.5 litre)",
+      "price": "100 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "Küçük Su",
+      "description": "0.5 litre doğal kaynak suyu",
+      "price": "20 ₺",
+      "image": "assets/images/su.jpg"
+    },
+    {
+      "name": "1,5Lt Su",
+      "description": "Büyük boy doğal kaynak suyu",
+      "price": "50 ₺",
       "image": "assets/images/su.jpg"
     }
   ],
   "durumler": [
     {
-      "name": "Adana Dürüm",
-      "description": "Adana kebap, lavaş içinde sunulur.",
-      "price": "150 ₺",
-      "image": "assets/images/su.jpg"
+      "name": "Et Döner Dürüm",
+      "description": "Lavaş içinde bol et döner, domates, soğan ve özel sos.",
+      "price": "220 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Tavuk Döner Dürüm",
+      "description": "Lavaş arasında nefis tavuk döner ve garnitürler.",
+      "price": "220 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Karışık Döner Dürüm",
+      "description": "Et ve tavuk döner karışımıyla hazırlanan özel dürüm.",
+      "price": "220 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Adana Dürüm + Ayran",
+      "description": "Acılı Adana kebabı dürüm şeklinde, yanında ayran ile servis.",
+      "price": "220 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Et Şiş Dürüm + Ayran",
+      "description": "Izgara kuzu et şiş dürüm, ayran ile birlikte servis edilir.",
+      "price": "270 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Tavuk Şiş Dürüm + Ayran",
+      "description": "Tavuk şiş dürüm, yanında serin ayran ile sunulur.",
+      "price": "200 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Ciğer Dürüm",
+      "description": "Izgara ciğer, soğan ve maydanoz ile dürüm şeklinde.",
+      "price": "250 ₺",
+      "image": "assets/images/doner.jpg"
     }
   ],
   "doner": [
     {
-      "name": "Et Döner",
-      "description": "Klasik et döner, pilav üstü veya porsiyon.",
-      "price": "110₺",
-      "image": "assets/images/su.jpg"
+      "name": "Et Döner Servis",
+      "description": "Özel et döner, pilav, salata ve lavaş ile servis edilir.",
+      "price": "500 ₺",
+      "image": "assets/images/doner.jpg"
     },
     {
-      "name": "İskender",
-      "description": "Tereyağlı yoğurtlu iskender döner.",
-      "price": "135₺",
-      "image": "assets/images/su.jpg"
+      "name": "Tavuk Döner Servis",
+      "description": "Lezzetli tavuk döner, pilav, salata ve lavaş ile servis edilir.",
+      "price": "500 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Tereyağlı Et İskender",
+      "description": "Özel et döner, tereyağı, yoğurt ve pide ile servis edilen iskender.",
+      "price": "500 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Karışık Döner Servis",
+      "description": "Adana, tavuk ve et dönerin karışımı, pilav, salata ve lavaş ile sunulur.",
+      "price": "500 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Tereyağlı Karışık İskender",
+      "description": "Adana, et ve tavuk dönerin karışımı, tereyağı ve yoğurt ile iskender.",
+      "price": "500 ₺",
+      "image": "assets/images/doner.jpg"
+    },
+    {
+      "name": "Tereyağlı Tavuk İskender",
+      "description": "Tavuk döner, tereyağı, yoğurt ve pide ile yapılan tavuk iskender.",
+      "price": "500 ₺",
+      "image": "assets/images/doner.jpg"
     }
   ],
   "pide": [
     {
-      "name": "Kıymalı Pide",
-      "description": "Taş fırında kıymalı pide.",
-      "price": "75₺",
-      "image": "assets/images/su.jpg"
+      "name": "Lahmacun",
+      "description": "Geleneksel taş fırında ince çıtır lahmacun.",
+      "price": "120 ₺",
+      "image": "assets/images/pide.jpg"
     },
     {
       "name": "Kaşarlı Pide",
-      "description": "Bol kaşarlı çıtır pide.",
-      "price": "70₺",
-      "image": "assets/images/su.jpg"
+      "description": "Bol kaşarlı klasik pide.",
+      "price": "300 ₺",
+      "image": "assets/images/pide.jpg"
+    },
+    {
+      "name": "Kuşbaşı Kaşarlı Pide (Kuzu Eti)",
+      "description": "Kuzu etli kuşbaşı ve kaşar peyniriyle özel taş fırında.",
+      "price": "300 ₺",
+      "image": "assets/images/pide.jpg"
+    },
+    {
+      "name": "Kıymalı Kaşarlı Pide",
+      "description": "Kıymalı ve kaşarlı karışım ile fırınlanmış çıtır pide.",
+      "price": "300 ₺",
+      "image": "assets/images/pide.jpg"
+    },
+    {
+      "name": "Kuşbaşı Pide",
+      "description": "Lezzetli kuşbaşı etli geleneksel pide.",
+      "price": "300 ₺",
+      "image": "assets/images/pide.jpg"
+    },
+    {
+      "name": "Kaşarlı Sucuklu Pide",
+      "description": "Dilimli sucuk ve bol kaşar ile hazırlanan özel pide.",
+      "price": "300 ₺",
+      "image": "assets/images/pide.jpg"
+    },
+    {
+      "name": "Kıymalı Pide",
+      "description": "Baharatlı dana kıyması ile taş fırında pişmiş pide.",
+      "price": "300 ₺",
+      "image": "assets/images/pide.jpg"
+    },
+    {
+      "name": "Karışık Pide",
+      "description": "Kaşar, kıyma, sucuk ve kuşbaşı et karışımıyla dolu özel pide.",
+      "price": "500 ₺",
+      "image": "assets/images/pide.jpg"
     }
   ],
   "corba": [
-    {
-      "name": "Mercimek Çorbası",
-      "description": "Sıcak ve lezzetli mercimek çorbası.",
-      "price": "35₺",
-      "image": "assets/images/su.jpg"
-    },
-    {
-      "name": "Ezogelin Çorbası",
-      "description": "Baharatlı ve doyurucu ezogelin.",
-      "price": "38₺",
-      "image": "assets/images/su.jpg"
-    }
-  ]
+  {
+    "name": "Beyran Çorbası",
+    "description": "Bol sarımsaklı, acılı ve etli geleneksel Gaziantep çorbası.",
+    "price": "350 ₺",
+    "image": "assets/images/corba.png"
+  },
+  {
+    "name": "Kelle Paça",
+    "description": "Kollajen ve şifa dolu kelle paça çorbası.",
+    "price": "300 ₺",
+    "image": "assets/images/corba.png"
+  },
+  {
+    "name": "Mercimek Çorbası",
+    "description": "Kırmızı mercimekten yapılmış klasik Türk çorbası.",
+    "price": "250 ₺",
+    "image": "assets/images/corba.png"
+  },
+  {
+    "name": "Tavuk Çorbası",
+    "description": "Tel tel tavuk etiyle hazırlanmış sıcak çorba.",
+    "price": "250 ₺",
+    "image": "assets/images/corba.png"
+  },
+  {
+    "name": "Domates Çorbası",
+    "description": "Kızarmış ekmek ve kaşar rendesiyle servis edilen domates çorbası.",
+    "price": " ₺",
+    "image": "assets/images/corba.png"
+  }
+]
 }
