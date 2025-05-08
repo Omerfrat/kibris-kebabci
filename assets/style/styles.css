@@ -17,17 +17,97 @@ header h1 {
   margin: 0;
 }
 
+header img {
+  width: 100%;
+  height: 100px;
+}
+
 main {
   padding: 20px;
 }
 
-#category-selection {
+#category-selection.category-scroll {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  opacity: 0.8;
 }
+
+#category-selection.category-scroll button {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  background-color: #c62828;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#category-selection.category-scroll button:hover {
+  background-color: #b71c1c;
+}
+
+.category-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.scroll-btn {
+  background-color: rgba(198, 40, 40, 0.9);
+  border: none;
+  color: white;
+  font-size: 24px;
+  padding: 4px 8px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.scroll-btn:hover {
+  background-color: rgba(183, 28, 28, 0.9);
+}
+
+.scroll-btn.left {
+  margin-right: 3px;
+  margin-left: 5px;
+}
+
+.scroll-btn.right {
+  margin-right: 5px;
+  margin-left: 2px;
+}
+
+#category-selection.category-scroll {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px;
+  gap: 10px;
+  scroll-behavior: smooth;
+  flex: 1;
+}
+
+#category-selection.category-scroll button {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  background-color: #c62828;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
 
 #view-menu-btn {
 display: flex;
@@ -153,6 +233,11 @@ footer a:hover {
   #category-selection {
     flex-direction: row; /* Butonları alt alta yerleştir */
     font-size: 25px;
+  }
+
+  #category-selection.category-scroll button {
+    font-size: 0.9rem;
+    padding: 8px 12px;
   }
 
   /* .menu-item {
