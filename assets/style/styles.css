@@ -42,7 +42,7 @@ main {
   scroll-snap-align: start;
   padding: 10px 16px;
   font-size: 1rem;
-  background-color: #c62828;
+  background-color: #ea0404;
   color: white;
   border-radius: 6px;
   cursor: pointer;
@@ -50,7 +50,8 @@ main {
 }
 
 #category-selection.category-scroll button:hover {
-  background-color: #b71c1c;
+  background-color: #e75c5c;
+  color: #ffffff;
 }
 
 .category-wrapper {
